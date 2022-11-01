@@ -11,6 +11,8 @@
 		4B3285752911297500F28296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3285742911297500F28296 /* ContentView.swift */; };
 		4B3285772911297700F28296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3285762911297700F28296 /* Assets.xcassets */; };
 		4B32857A2911297700F28296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3285792911297700F28296 /* Preview Assets.xcassets */; };
+		4B32858129112CB100F28296 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858029112CB100F28296 /* OnBoardingView.swift */; };
+		4B32858329112E5800F28296 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858229112E5800F28296 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4B3285742911297500F28296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B3285762911297700F28296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B3285792911297700F28296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B32858029112CB100F28296 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		4B32858229112E5800F28296 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		4B3285712911297500F28296 /* grocios */ = {
 			isa = PBXGroup;
 			children = (
+				4B32858429112E5F00F28296 /* HomeScreenViews */,
 				4B3285722911297500F28296 /* grociosApp.swift */,
+				4B32858029112CB100F28296 /* OnBoardingView.swift */,
 				4B3285742911297500F28296 /* ContentView.swift */,
 				4B3285762911297700F28296 /* Assets.xcassets */,
 				4B3285782911297700F28296 /* Preview Content */,
@@ -65,6 +71,14 @@
 				4B3285792911297700F28296 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B32858429112E5F00F28296 /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				4B32858229112E5800F28296 /* HomeScreen.swift */,
+			);
+			path = HomeScreenViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B32858329112E5800F28296 /* HomeScreen.swift in Sources */,
+				4B32858129112CB100F28296 /* OnBoardingView.swift in Sources */,
 				4B3285752911297500F28296 /* ContentView.swift in Sources */,
 				4B3285732911297500F28296 /* grociosApp.swift in Sources */,
 			);
