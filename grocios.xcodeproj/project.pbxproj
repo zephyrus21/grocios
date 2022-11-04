@@ -13,6 +13,11 @@
 		4B32857A2911297700F28296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3285792911297700F28296 /* Preview Assets.xcassets */; };
 		4B32858129112CB100F28296 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858029112CB100F28296 /* OnBoardingView.swift */; };
 		4B32858329112E5800F28296 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858229112E5800F28296 /* HomeScreen.swift */; };
+		4B3285872911344900F28296 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3285862911344900F28296 /* ImageData.swift */; };
+		4B3285892911345A00F28296 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3285882911345A00F28296 /* NearYouData.swift */; };
+		4B32858B2911366100F28296 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858A2911366100F28296 /* FruitCardView.swift */; };
+		4B32858D291235D200F28296 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858C291235D200F28296 /* TopSellingView.swift */; };
+		4B32858F291235E100F28296 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32858E291235E100F28296 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		4B3285792911297700F28296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B32858029112CB100F28296 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		4B32858229112E5800F28296 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4B3285862911344900F28296 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		4B3285882911345A00F28296 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		4B32858A2911366100F28296 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		4B32858C291235D200F28296 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		4B32858E291235E100F28296 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		4B3285712911297500F28296 /* grocios */ = {
 			isa = PBXGroup;
 			children = (
+				4B3285852911343700F28296 /* Model */,
 				4B32858429112E5F00F28296 /* HomeScreenViews */,
 				4B3285722911297500F28296 /* grociosApp.swift */,
 				4B32858029112CB100F28296 /* OnBoardingView.swift */,
@@ -77,8 +88,20 @@
 			isa = PBXGroup;
 			children = (
 				4B32858229112E5800F28296 /* HomeScreen.swift */,
+				4B32858A2911366100F28296 /* FruitCardView.swift */,
+				4B32858C291235D200F28296 /* TopSellingView.swift */,
+				4B32858E291235E100F28296 /* DetailsView.swift */,
 			);
 			path = HomeScreenViews;
+			sourceTree = "<group>";
+		};
+		4B3285852911343700F28296 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B3285862911344900F28296 /* ImageData.swift */,
+				4B3285882911345A00F28296 /* NearYouData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B32858329112E5800F28296 /* HomeScreen.swift in Sources */,
+				4B3285892911345A00F28296 /* NearYouData.swift in Sources */,
+				4B32858F291235E100F28296 /* DetailsView.swift in Sources */,
 				4B32858129112CB100F28296 /* OnBoardingView.swift in Sources */,
+				4B32858D291235D200F28296 /* TopSellingView.swift in Sources */,
 				4B3285752911297500F28296 /* ContentView.swift in Sources */,
+				4B32858B2911366100F28296 /* FruitCardView.swift in Sources */,
+				4B3285872911344900F28296 /* ImageData.swift in Sources */,
 				4B3285732911297500F28296 /* grociosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
